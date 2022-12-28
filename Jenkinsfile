@@ -10,7 +10,7 @@ pipeline {
         stage('Build'){
             steps{
                   bat 'mvn clean compile'
-                 archiveArtifacts artifacts: 'target/*.war*', onlyIfSuccessful: true
+                 archiveArtifacts artifacts: 'target', onlyIfSuccessful: true
             }
         }
         stage('Upload War To Nexus'){
