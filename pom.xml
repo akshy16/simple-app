@@ -73,13 +73,13 @@
     <repository>
         <id>releases</id>
         <name>releases</name>
-        <url>http://localhost:8081/repository/simple-app/</url>
+        <url>http://localhost:8080/repository/simple-app/</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>Snapshots</name>
-        <url>http://localhost:8081/repository/simple-app/</url>
+        <url>http://localhost:8080/repository/simple-app/</url>
     </snapshotRepository>
 </distributionManagement>
 	
