@@ -68,5 +68,19 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+
+    <repository>
+        <id>releases</id>
+        <name>releases</name>
+        <url>http://localhost:8080/repository/simple-app/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Snapshots</name>
+        <url>http://localhost:8080/repository/simple-app/</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 </project>
